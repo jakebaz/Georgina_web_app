@@ -11,50 +11,50 @@ export class Main extends React.Component {
                 <div className="category-images">
                     <div className="category-containers">
                         <div className="inner-container">
-                            <img src={require('../images/cat_1.webp')} alt='category clay country'></img>
+                            <img src='/images/cat_1.webp' alt='category clay country'></img>
                             <div className="img-overlay">
                                 <span>Clay Country</span>
                             </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/splash.webp')} alt='category imprints'></img>
+                        <img src='/images/splash.webp' alt='category imprints'></img>
                         <div className="img-overlay">
                             <span>Imprints</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_3.webp')} alt='category seascape'></img>
+                        <img src='/images/cat_3.webp' alt='category seascape'></img>
                         <div className="img-overlay">
                             <span>Seascape</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_4.webp')} alt='category painted body'></img>
+                        <img src='/images/cat_4.webp' alt='category painted body'></img>
                         <div className="img-overlay">
                             <span>Painted Body</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_5.webp')} alt='category self portrait'></img>
+                        <img src='/images/cat_5.webp' alt='category self portrait'></img>
                         <div className="img-overlay">
                             <span>Self Portrait</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_6.webp')} alt='category human movement'></img>
+                        <img src='/images/cat_6.webp' alt='category human movement'></img>
                         <div className="img-overlay">
                             <span>Human Movement</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_7.webp')} alt='category human contact'></img>
+                        <img src='/images/cat_7.webp' alt='category human contact'></img>
                         <div className="img-overlay">
                             <span>Human Contact</span>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src={require('../images/cat_8.webp')} alt='category human monoprint'></img>
+                        <img src='/images/cat_8.webp' alt='category human monoprint'></img>
                         <div className="img-overlay">
                             <span>Human Monoprint</span>
                         </div>
