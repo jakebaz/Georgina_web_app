@@ -7,5 +7,8 @@
     "test": "scripts.test"
   },
   "author": "Jacob Bazin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-scroll": "^1.8.1"
+  }
 }
