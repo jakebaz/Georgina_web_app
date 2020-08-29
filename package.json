@@ -1,0 +1,11 @@
+{
+  "name": "georgina_web_app",
+  "version": "1.0.0",
+  "description": "Georginas website",
+  "main": "index.js",
+  "scripts": {
+    "test": "scripts.test"
+  },
+  "author": "Jacob Bazin",
+  "license": "ISC"
+}
