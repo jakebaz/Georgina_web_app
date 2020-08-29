@@ -7,10 +7,10 @@ export class Menu extends React.Component {
             <div className='menu'>
                 <nav className='hamburger-navigation'>
                     <ul>
-                        <li><Link to="Home">Home</Link></li>
-                        <li><Link to="Gallery">Gallery</Link></li>
-                        <li><Link to="About">About</Link></li>
-                        <li><Link to="Contact">Contact</Link></li>
+                        <li><Link to="Home" onClick={this.props.menuClickHandler}>Home</Link></li>
+                        <li><Link to="Gallery" onClick={this.props.menuClickHandler}>Gallery</Link></li>
+                        <li><Link to="About" onClick={this.props.menuClickHandler}>About</Link></li>
+                        <li><Link to="Contact" onClick={this.props.menuClickHandler}>Contact</Link></li>
                     </ul>
                 </nav>
             </div>

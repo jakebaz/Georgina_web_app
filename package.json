@@ -9,6 +9,7 @@
   "author": "Jacob Bazin",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
     "react-scroll": "^1.8.1"
   }
 }
