@@ -38,6 +38,7 @@ export class Contact extends React.Component {
     render() {
         return (
             <div className="contact" id="Contact">
+                <div className="header-space"></div>
                 <h1>I'd love to hear from you</h1>
                 <div className="form-container">
                     <form method="POST" className="contact-form" onSubmit={this.handleSubmit}>

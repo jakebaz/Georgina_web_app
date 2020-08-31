@@ -1,7 +1,6 @@
 import React from 'react'
 import '../App.css'
 import Nav from './Nav'
-import HamburgerButton from './HamburgerButton'
 
 class Header extends React.Component {
     render() {
@@ -12,7 +11,6 @@ class Header extends React.Component {
                 </div>
                 <div id="header-right">
                     <Nav />
-                    <HamburgerButton click={this.props.menuClickHandler}/>
                 </div>
             </div>
         )

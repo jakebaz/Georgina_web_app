@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from './components/Header';
+import HamburgerButton from './components/HamburgerButton';
 import Menu from './components/Menu';
 import Backdrop from './components/Backdrop'
 import Main from './components/Main';
@@ -29,7 +30,8 @@ render (){
 
     return (
       <div style={{height: '100%'}} className="app">
-        <Header menuClickHandler={this.menuToggleClick}/>
+        <Header />
+        <HamburgerButton click={this.menuToggleClick}/>
         {menu}
         {backdrop}
         <Main />

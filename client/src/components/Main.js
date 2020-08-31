@@ -5,7 +5,7 @@ export class Main extends React.Component {
     render() {
         return (
             <div className="main-container" id="Gallery">
-                <div id="header-space"></div>
+                <div className="header-space"></div>
                 <div id="gallery-title">
                     <h1>Gallery</h1>
                 </div>
