@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Georginas website",
   "main": "index.js",
+  "homepage": "http://jakebaz.github.io/Georgina_web_app",
   "scripts": {
-    "test": "scripts.test"
+    "test": "scripts.test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Jacob Bazin",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.20.0",
     "react-scroll": "^1.8.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
