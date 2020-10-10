@@ -5,7 +5,7 @@ import Nav from './Nav'
 class Header extends React.Component {
     render() {
         return (
-            <div className="header" id="Home">
+            <div className="header">
                 <div id="header-left">
                     <h1 id="heading">Georgina Bazin</h1>
                 </div>

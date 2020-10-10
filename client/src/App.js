@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop'
 import Main from './components/Main';
 import About from './components/About';
 import Contact from './components/Contact';
+import ToTop from './components/ToTop'
 import Footer from './components/Footer';
 
 export class App extends Component {
@@ -37,6 +38,7 @@ render (){
         <Main />
         <About />
         <Contact />
+        <ToTop />
         <Footer />
       </div>
     )

@@ -9,6 +9,7 @@ export class Contact extends React.Component {
             name: '',
             email: '',
             message: '',
+            mailSent: null
         }
         this.handleChange = this.handleChange.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -32,6 +33,22 @@ export class Contact extends React.Component {
             email,
             message
         })
+        .then(res => {
+            if(res.data.success){
+                this.setState({
+                    mailSent: true
+                })
+            } else{
+                this.setState({
+                    mailSent: false
+                });
+            }
+        })
+        .catch(err => {
+            this.setState({
+                mailSent: false
+            })
+        })
         this.resetForm()
     }
 
@@ -49,7 +66,7 @@ export class Contact extends React.Component {
                             </div>
                             <div className="contact-col-2">
                                 <label htmlFor="email">Enter Your Email *</label>
-                                <input type="text" placeholder="Email"  name="email" id="email" onChange={this.handleChange}></input>
+                                <input type="email" placeholder="Email"  name="email" id="email" onChange={this.handleChange}></input>
                             </div>
                         </div>
                         <div className="contact-row-bottom" >
@@ -58,8 +75,11 @@ export class Contact extends React.Component {
                         </div>
                         <input type="Submit" name="submit" className="submit-form" value="Send" ></input>
                         <div>
-                            {this.state.mailSent &&
-                                <div>Thank you for contcting us.</div>
+                            {this.state.mailSent === true &&
+                                <div>Thank you for contcting me.</div>
+                            }
+                            {this.state.mailSent === false &&
+                            <div>Could not sent email</div>
                             }
                         </div>
                     </form>

@@ -19,45 +19,59 @@ export class Main extends React.Component {
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/splash.webp' alt='category imprints'></img>
-                        <div className="img-overlay">
-                            <span>Imprints</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_2.webp' alt='category imprints'></img>
+                            <div className="img-overlay">
+                                <span>Imprints</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_3.webp' alt='category seascape'></img>
-                        <div className="img-overlay">
-                            <span>Seascape</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_3.webp' alt='category seascape'></img>
+                            <div className="img-overlay">
+                                <span>Seascape</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_4.webp' alt='category painted body'></img>
-                        <div className="img-overlay">
-                            <span>Painted Body</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_4.webp' alt='category painted body'></img>
+                            <div className="img-overlay">
+                                <span>Painted Body</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_5.webp' alt='category self portrait'></img>
-                        <div className="img-overlay">
-                            <span>Self Portrait</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_5.webp' alt='category self portrait'></img>
+                            <div className="img-overlay">
+                                <span>Self Portrait</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_6.webp' alt='category human movement'></img>
-                        <div className="img-overlay">
-                            <span>Human Movement</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_6.webp' alt='category human movement'></img>
+                            <div className="img-overlay">
+                                <span>Human Movement</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_7.webp' alt='category human contact'></img>
-                        <div className="img-overlay">
-                            <span>Human Contact</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_7.webp' alt='category human contact'></img>
+                            <div className="img-overlay">
+                                <span>Human Contact</span>
+                            </div>
                         </div>
                     </div>
                     <div className="category-containers">
-                        <img src='/images/cat_8.webp' alt='category human monoprint'></img>
-                        <div className="img-overlay">
-                            <span>Human Monoprint</span>
+                        <div className="inner-container">
+                            <img src='/images/cat_8.webp' alt='category human monoprint'></img>
+                            <div className="img-overlay">
+                                <span>Human Monoprint</span>
+                            </div>
                         </div>
                     </div>
                 </div>

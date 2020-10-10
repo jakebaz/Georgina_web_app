@@ -35,43 +35,6 @@ body{
   }
 }
 
-/*splash screen styles*/
-.landing {
-  display: grid;
-  place-items: center;
-  text-align: center;
-  color: rgb(58, 58, 58);
-  max-width: 100vw;
-  padding-top: 40px;
-}
-
-#landingPageTitle{
-  font-size: 20px;
-  letter-spacing: 30px;
-  text-transform: uppercase;
-  position: absolute;
-  top: 70px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-
-#landingPageSub{
-  font-size: 10px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-}
-
-#enterSite{
-  border: none;
-  cursor: pointer;
-  background-color: #ffffff;
-}
-
-#enterSite:hover{
-  color: #636363;
-}
-
 /*site header*/
 .header{
   position: fixed;
@@ -182,14 +145,16 @@ body{
   padding-right:2rem;
   font-size: 10pt;
   text-align: center;
+  margin: 0 auto;
 }
 
 .nav-links ul li:hover{
   border-top: #000000 solid 2px;
 }
 
-.nav-active{
-  border-top: #000000 solid 2px;
+.nav-links ul li .activeLink{
+  border-top: #000 solid 2px;
+  padding-top: 5px;
 }
 
 .hamburger{
@@ -206,7 +171,7 @@ body{
   height: 17vh;
 }
 .main-container h1{
-  padding: 0 0 0 2rem;
+  padding: 0 0 2rem 2rem;
   text-transform: uppercase;
   letter-spacing: 1.5rem;
 }
@@ -225,13 +190,22 @@ body{
 
 .category-containers{
   position: relative;
-  margin: 2rem;
-  max-height: 500px;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 1.5rem;
+}
+
+.inner-container{
+  top: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .category-images img{
-  max-width: 500px;
-  max-height: 500px;
+  height: 100%;
+  width:100%;
 }
 
 .img-overlay{
@@ -391,6 +365,63 @@ label{
 
 .submit-form:hover{
   font-weight: 400;
+  cursor: pointer;
+}
+
+.to-top-arrow{
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  bottom: 7%;
+  text-align: center;
+}
+
+.pointer-left{
+  position: absolute;
+  background-color: black;
+  width: 50%;
+  height: 7%;
+  top: 15%;
+  left: 8%;
+  border-radius: 0 5px 0 0;
+  transform:rotate(-45deg);
+}
+
+.pointer-right{
+  position: absolute;
+  background-color: black;
+  width: 50%;
+  height: 7%;
+  top: 15%;
+  right: 8%;
+  border-radius: 5px 0 0 0;
+  transform:rotate(45deg);
+}
+
+.pointer-vertical{
+ position: absolute;
+ background-color: black;
+ height: 80%;
+ width: 7%;
+ top: 1.5%;
+ left: 50%;
+ border-radius: 2.5px 2.5px 0 0;
+ transform: translate(-50%)
+}
+
+#to-top-text{
+  position: absolute;
+  font-size: 0.4rem;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.to-top-button{
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
   cursor: pointer;
 }
 
