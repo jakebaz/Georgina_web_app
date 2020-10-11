@@ -11,12 +11,12 @@ export class Main extends React.Component {
                 </div>
                 <div className="category-images">
                     <div className="category-containers">
-                        <div className="inner-container">
-                            <img src='/images/cat_1.webp' alt='category clay country'></img>
-                            <div className="img-overlay">
-                                <span>Clay Country</span>
+                            <div className="inner-container">
+                                <img src='/images/cat_1.webp' alt='category clay country'></img>
+                                <div className="img-overlay" onClick={this.props.toggleCategory}>
+                                    <span>Clay Country</span>
+                                </div>
                             </div>
-                        </div>
                     </div>
                     <div className="category-containers">
                         <div className="inner-container">
