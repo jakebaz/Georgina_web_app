@@ -23,7 +23,7 @@ menuToggleClick = () => {//menu on/off toggle
   });
 };
 
-openCategoryWindow = () => {//open a category - parameter should be unique for each category
+openCategoryWindow = (categoryNumber) => {//open a category - parameter should be unique for each category
   this.setState((previousState) => {
     return {categoryOpen: !previousState.categoryOpen};
   })

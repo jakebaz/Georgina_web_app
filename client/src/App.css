@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap'); /*import fonts*/
 
+/*Defines an animation for pop out windows for the categories*/
+
 /*general page styling*/
 *{
   margin: 0;
@@ -166,10 +168,11 @@ body{
 }
 
 /*main section*/
-
+/*Div to push content from underneath header into view*/
 .header-space{
   height: 17vh;
 }
+
 .main-container h1{
   padding: 0 0 2rem 2rem;
   text-transform: uppercase;
@@ -232,6 +235,7 @@ body{
   font-size: 0.7rem;
 }
 
+/*Category Window*/
 .categoryWindow{
   position: fixed;
   width: 80vw;
@@ -250,6 +254,7 @@ body{
   letter-spacing: 0.5rem
 }
 
+/*exit symbol for category window*/
 .exit-symbol{
   position: relative;
   float: right;

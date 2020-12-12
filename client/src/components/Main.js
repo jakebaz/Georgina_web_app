@@ -11,9 +11,9 @@ export class Main extends React.Component {
                 </div>
                 <div className="category-images">
                     <div className="category-containers">
-                            <div className="inner-container">
+                            <div className="inner-container"  onClick={this.props.toggleCategory}>
                                 <img src='/images/cat_1.webp' alt='category clay country'></img>
-                                <div className="img-overlay" onClick={this.props.toggleCategory}>
+                                <div className="img-overlay">
                                     <span>Clay Country</span>
                                 </div>
                             </div>
